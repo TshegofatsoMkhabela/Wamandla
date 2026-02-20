@@ -1,20 +1,15 @@
-import LoginPO from '../../PageObjects/LoginPO';
-
-
+const LoginPO = require('../../PageObjects/LoginPO');
 
 describe('Login Page Negative Tests', () => {
 
-   const loginPO = new LoginPO();
+  const loginPO = new LoginPO();
 
   beforeEach(() => {
-    cy.visit('https://testathon.live/signin')
-  })
+    cy.visit('https://testathon.live/signin');
+  });
 
   it('Scenario 2 - Negative Test Login Page', () => {
- 
+    // TODO: Implement negative login test
+  });
 
-  })
-
-
-
-})
+});

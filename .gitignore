@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# BrowserStack (safety net — credentials should use env vars)
+browserstack.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temp scripts
+_run_cypress.js
+_install_cypress.js
